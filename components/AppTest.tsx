@@ -5,7 +5,7 @@ import { MessageCircle, X } from "lucide-react";
 import { useTheme } from "next-themes";
 
 export default function AppTest() {
-    const { theme } = useTheme();
+
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState<{ role: "user" | "assistant"; content: string }[]>([]);
     const [input, setInput] = useState("");
