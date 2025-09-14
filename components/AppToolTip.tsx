@@ -56,7 +56,7 @@ const AppToolTip = () => {
                             tickFormatter={(value) => String(value).slice(0, 3)}
                         />
                         <ChartTooltip content={<ChartTooltipContent hideLabel />} />
-                        <ChartLegend content={<ChartLegendContent />} />
+                        <ChartLegend content={<ChartLegendContent payload={undefined} />} />
                         <Bar
                             dataKey="desktop"
                             stackId="a"

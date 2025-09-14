@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { MessageCircle, X } from "lucide-react";
-import { useTheme } from "next-themes";
+
 
 export default function AppTest() {
 
@@ -40,6 +40,7 @@ export default function AppTest() {
                     { role: "assistant", content: "Error: Unable to retrieve response." },
                 ]);
             }
+            // eslint-disable-next-line @typescript-eslint/no-unused-vars
         } catch (error) {
             setMessages((prev) => [
                 ...prev,

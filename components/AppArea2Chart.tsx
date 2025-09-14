@@ -251,7 +251,7 @@ const AppArea2Chart = () => {
                             stroke="var(--color-desktop)"
                             stackId="a"
                         />
-                        <ChartLegend content={<ChartLegendContent />} />
+                        <ChartLegend content={<ChartLegendContent payload={undefined} />} />
                     </AreaChart>
                 </ChartContainer>
             </CardContent>

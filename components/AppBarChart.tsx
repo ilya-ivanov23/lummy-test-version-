@@ -42,7 +42,7 @@ const AppBarChart = () => {
                         axisLine={false}
                     />
                     <ChartTooltip content={<ChartTooltipContent />} />
-                    <ChartLegend content={<ChartLegendContent />} />
+                    <ChartLegend content={<ChartLegendContent payload={undefined} />} />
                     <Bar dataKey="desktop" fill="var(--color-desktop)" radius={4} />
                     <Bar dataKey="mobile" fill="var(--color-mobile)" radius={4} />
                 </BarChart>
