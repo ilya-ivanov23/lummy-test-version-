@@ -151,7 +151,7 @@ const SingleUserPage = () => {
                     </div>
                     {/* CARD LIST CONTAINER */}
                     <div className="bg-primary-foreground p-4 rounded-lg">
-                        <CardList title="Recent Transactions" />
+                        <CardList  />
                     </div>
                 </div>
                 {/* RIGHT */}
